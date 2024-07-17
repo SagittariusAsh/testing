@@ -15,8 +15,6 @@ body {
   position: absolute;
   top: calc(50vh - 200px);
   left: calc(30vw - 150px);
-  /* top: 40%;
-  left: 20%; */
   width: 900px;
   height: 450px;
 }
