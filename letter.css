@@ -118,13 +118,13 @@ p {
 }
 
 #letter h1 {
-  font-size: 5vw;
+  font-size: 0.9em;
   color: white;
 }
 
 #letter img {
-  height: 30vh;
-  width: auto;
+  height: auto;
+  width: 10em;
 }
 #envelope button {
   display: block;
@@ -152,5 +152,5 @@ p {
 .text h1 {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size:xx-large;
+  font-size: 2em;
 }
