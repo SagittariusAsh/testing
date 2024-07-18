@@ -3,11 +3,11 @@
   <head>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="letter.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <!-- <script>
+    <script>
       function openUp() {
         const $opentop = document.querySelector("#opentop");
         const $top = document.querySelector("#top");
@@ -25,7 +25,7 @@
         $button.classList.add("animate");
         $letter.classList.add("animate");
       }
-    </script> -->
+    </script>
   </head>
   <body>
     <div class="text">
@@ -36,11 +36,11 @@
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
-          height="500"
-          width="1000"
+          height="300"
+          width="300"
         >
           <polygon
-            points="0,0 450,0 900,0 900,600 2,600"
+            points="0,100 300,100 300,300 0,300"
             style="fill: #4a274a; stroke: none; stroke-width: 0"
           />
         </svg>
@@ -49,24 +49,25 @@
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
-          height="500"
-          width="1000"
+          height="300"
+          width="300"
         >
           <polygon
-            points="0,0 450,300 900,0 900,499 2,499"
+            points="0,100 150,200 300,100 300,300 0,300"
             style="fill: #800000; stroke: #ffffff; stroke-width: 3"
+
           />
         </svg>
       </div>
-      <div id="top" class="custom">
+      <div id="top">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
-          height="500"
-          width="1000"
+          height="300"
+          width="300"
         >
           <polygon
-            points="0,0 450,300 900,2,"
+            points="0,100 150,200 300,100"
             style="fill: #800000; stroke: #ffffff; stroke-width: 3"
           >
             <animate
@@ -75,19 +76,20 @@
               dur="0.5s"
               fill="freeze"
               begin="indefinite"
-              from="0,0 450,300 900,2"
-              to="0,0 450,0 900,2"
+              from="0,100 150,200 300,100"
+              to="0,100 150,0 300,100"
             />
           </polygon>
         </svg>
       </div>
-        <div id="letter">
-          <h1>Click On The Dot Below The Heart👀
-          </h1>
-          <a href="card.html"><img src="heart img.png"/></a>
-        
-        </div>
-      <button onclick="openUp()">Tap <br>Here</button>
-    </div>
+
+      <div id="letter">
+                <h1>Click On The Dot Below The Heart👀
+                </h1>
+                <a href="card.html"><img src="heart img.png"/></a>
+              
+              </div>
+            <button onclick="openUp()">Tap <br>Here</button>
+      </div>
   </body>
 </html>
