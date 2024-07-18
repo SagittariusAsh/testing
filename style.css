@@ -123,8 +123,8 @@ p {
 }
 
 #letter img {
-  height: 30vw;
-  width: auto;
+  height: 200px;
+  width: 200px;
 }
 #envelope button {
   display: block;
